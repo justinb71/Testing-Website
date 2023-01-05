@@ -1,0 +1,198 @@
+
+<style>
+
+	label{
+		transition: .1s;
+	}
+
+	/*CSS for the entire page*/
+	html{
+		
+		font-family: helvetica;
+		
+		
+		background: linear-gradient(87deg,#121214, #2c2c30);
+		
+		
+
+	}
+	
+
+	
+	#main{
+		position: absolute;
+		left: 38vw;
+		top;
+		right;
+		float;
+		
+		position: absolute;
+		
+		margin: auto;
+
+	}
+	
+	h1{
+		position: relative;
+		left: 21px;
+	}
+	
+	/*CSS for the error text*/
+	
+	#nameError {
+		transition: 1.s;
+		color: #d62e29;
+		
+		position: relative;
+		top: -250px;
+		left: 242px;
+		resize: none;
+		
+		
+	}
+	#subjectError {
+		transition: .1s;
+		color: #d62e29;
+		
+		position: relative;
+		top: -260px;
+		left: 242px;
+		
+	}
+	#numberError {
+		color: #d62e29;
+		transition: .1s;
+		position: relative;
+		top: -267px;
+		left: 242px;
+		
+	}
+	#markError {
+		color: #d62e29;
+		transition: .1s;
+		position: relative;
+		top: -278px;
+		left: 242px;
+		
+	}
+	
+
+
+	/*CSS for the input box*/
+		#inputField {
+			font-size: 20px;
+			background: linear-gradient(#202022, #1c1d1f);
+			
+			
+			 
+			
+			padding-right: 60px;
+			padding-left:10px;
+			padding-bottom: 49px;
+			top: 50px;
+			
+			border: solid 3px none;
+			border-radius: 15px 50px;
+		
+			color: #d7d8db;
+			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.9);
+			
+		}
+	
+	/*General CSS for both buttons*/
+	button {
+		
+		
+		color: #d7d8db;
+		width:120px;
+		height:30px;
+		border-radius: 12px;
+	
+		border: none;
+		background-color: #262629;
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.9);
+	
+	}
+	
+	/*General CSS for both buttons when hovered over*/
+	
+	button:hover {
+	
+		transition: .3s;
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		
+
+		
+		width:125px;
+		button:active {
+		transition: .1s;
+		
+		background-color: #4f5056;
+	}
+	}
+	
+	/*General CSS for both buttons when pressed*/
+	button:active {
+		transition: .1s;
+		
+		background-color: #313136;
+	}
+
+	/*CSS for the input fields*/
+	input{
+			
+		color: white;
+		position: absolute;
+		left: 237px;
+		
+		border-radius: 12px;
+		background-color: #262629;
+		transition: .1s;
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.10);
+		
+	}
+	
+	/*CSS for when the input fields are in use*/
+	input:focus {
+		background-color: #313136;
+		left: 242px;
+	}
+	
+	/*CSS for the output box*/
+	#output{
+		background-color: #17171a;
+	
+		font-size: 20px;
+		position: absolute; 
+		top: 420px;
+		padding: 4px;
+	
+		border: solid 3px none;
+		border-radius: 5px;
+		box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+		color: #d7d8db;
+		display: block;
+		width: 510px;
+		
+		text-align: center;
+		
+		
+	}
+	
+		
+	
+	
+	
+	/*CSS for the reset button*/
+	#reset{
+		position: absolute;
+		left: 63px;		
+	}
+	
+	/*CSS for the submit buton*/
+	#submit {
+		position: absolute;
+		left: 330px;
+
+	}
+</style>

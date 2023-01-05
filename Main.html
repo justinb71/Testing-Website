@@ -1,0 +1,71 @@
+<link rel="stylesheet" href="Page CSS.css">
+
+<script src="javascript.js"></script>
+
+<html>
+
+	
+		<div id ="main">
+	
+		<div id="inputField">
+		
+			<head>
+			
+				<title>Exam Grade Calculator</title>
+				<h1>Exam Grade Calculator</h1>
+				
+			</head>
+			
+			
+			<label id="nameLabel">Name:</label>
+			<input type="text" id = "studentNameField" value="" size="25"/><br><br> 
+			
+			<label  id="subjectLabel">Subject:</label>
+			
+			
+			
+			<input type="text" id = "subjectField" list="Subjects" size="25"/><br><br> 
+			
+			<datalist id="Subjects">
+			  <option value="Mathematics">
+			  <option value="English">
+			  <option value="Physics">
+			  <option value="Biology">
+			  <option value="Chemisty">
+			</datalist>
+			
+			<label id="examinationNumberLabel">Examination Number:</label>
+			<input type="text" id = "examinationNumberField" value="" size="25"/><br> <br> 
+			
+			<label id="examMarkLabel">Exam Mark:</label>
+			<input type="text" id = "examMarkField" value="" size="25"/><br> <br> 
+			
+			<button type="button" id = "reset" onClick="reset();">Reset </button>
+			<button type="button" id = "submit" onClick="submit();">Submit </button>
+			
+		</div>
+		
+		<div id="output">
+		
+			<label size = "25" id="gradeOutput">Grade: </label>
+			
+		</div>
+		
+	
+		<div id = "errorlabels">
+		
+			<label id="nameError"></label><br> <br> <br> 
+			<label id="subjectError"></label><br> <br> <br> 
+			<label id="numberError"></label><br> <br> <br> 
+			<label id="markError"></label><br> <br> <br> 
+			
+		</div>
+		
+	</div>
+
+	
+</html>
+
+
+
+
